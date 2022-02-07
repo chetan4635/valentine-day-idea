@@ -1,4 +1,13 @@
 ﻿<html lang="en">
+   <script type="text/javascript">
+   function autoplay(){
+    var r =confirm("Would You Like To AutoPlay Music?");
+    if (r == true) {
+        document.getElementById("audio").play();
+    }
+  }
+</script>
+<script>autoplay();</script> 
 <head>
   <meta charset="utf-8">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -44,8 +53,7 @@
     <!-- <audio class="audio" src="./media/dongxi-md.mp3" preload autoplay loop></audio>  -->
     <audio class="audio" preload autoplay loop>
       <source src="./media/zui-mei-qing-lv-cut.mp3" type="audio/mp3" />
-      <iframe src="./media/zui-mei-qing-lv-cut.mp3" type="audio/mp3" allow="autoplay" id="audio" style="display:none"></iframe>Your browser does not support the audio element.</audio> 
-  </div>
+        </div>
   <div class="banner ovh">
     <div class="swiper-wrap">
       <!-- <img src="./images/DSC_0692_mix01.jpg" alt=""> -->

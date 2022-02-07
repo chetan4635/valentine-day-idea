@@ -1,12 +1,4 @@
-<script type="text/javascript">
-   function autoplay(){
-    var r =confirm("Would You Like To AutoPlay Music?");
-    if (r == true) {
-        document.getElementById("audio").play();
-    }
-  }
-</script>
-<script>autoplay();</script> 
+
 
 <html lang="en">
    
@@ -53,7 +45,7 @@
   <div class="music">
     <i class="iconfont music-close">&#xea28;</i>
     <!-- <audio class="audio" src="./media/dongxi-md.mp3" preload autoplay loop></audio>  -->
-    <audio class="audio" id="audio" preload autoplay loop>
+    <audio class="audio" id="audioo" preload autoplay loop>
       <source src="./media/zui-mei-qing-lv-cut.mp3" type="audio/mp3" />
         </div>
   <div class="banner ovh">
@@ -346,6 +338,15 @@
       return timer;
   }
   var timer= setTimer();
+ 
+  function autoplay(){
+    var r =confirm("Would You Like To AutoPlay Music?");
+    if (r == true) {
+        document.getElementById("audioo").play();
+    }
+  }
+ 
 </script>
+<script>autoplay();</script>
 
 </html>
